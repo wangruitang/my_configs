@@ -2,8 +2,9 @@
 	name = wangruitang
 	email = wrt5368@foxmail.com
 [alias]
-	stt = status
-	chk = checkout
+	st = status
+	ch = checkout
 	cm = commit -m
 	br = branch
 	bd = branch -D
+	rs = reset
