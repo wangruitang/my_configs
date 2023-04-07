@@ -8,3 +8,4 @@
 	br = branch
 	bd = branch -D
 	rs = reset
+	lg = log
