@@ -55,3 +55,8 @@ if has("autocmd")
   au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 endif
 
+nnoremap <Esc><Esc> :w<CR>
+inoremap <Esc><Esc> <Esc>:w<CR>
+nnoremap <C-d> :q!<CR>
+inoremap <C-d> <Esc>:q!<CR>
+
