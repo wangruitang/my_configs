@@ -41,11 +41,11 @@ let g:NERDTrimTrailingWhitespace = 1
 let g:NERDToggleCheckAllLines = 1
 
 " 使用vim-plug插件管理器
-call plug#begin('~/.vim/plugged')
-Plug 'jiangmiao/auto-pairs'
-Plug 'Valloric/YouCompleteMe'
-Plug 'preservim/nerdcommenter'
-call plug#end()
+" call plug#begin('~/.vim/plugged')
+" Plug 'jiangmiao/auto-pairs'
+" Plug 'Valloric/YouCompleteMe'
+" Plug 'preservim/nerdcommenter'
+" call plug#end()
 
 let g:syntastic_cpp_compiler = 'clang++'
 let g:ycm_confirm_extra_conf = 0

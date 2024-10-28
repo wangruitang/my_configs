@@ -1,11 +1,3 @@
 [user]
 	name = wangruitang
 	email = wrt5368@foxmail.com
-[alias]
-	st = status
-	ch = checkout
-	cm = commit -m
-	br = branch
-	bd = branch -D
-	rs = reset
-	lg = log
